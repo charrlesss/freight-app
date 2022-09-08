@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fraight/static/css/main.073c9b0a.css",
-    "main.js": "/fraight/static/js/main.80364f8e.js",
-    "static/js/787.7c01f2a9.chunk.js": "/fraight/static/js/787.7c01f2a9.chunk.js",
-    "static/media/logo.svg": "/fraight/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/fraight/index.html",
-    "main.073c9b0a.css.map": "/fraight/static/css/main.073c9b0a.css.map",
-    "main.80364f8e.js.map": "/fraight/static/js/main.80364f8e.js.map",
-    "787.7c01f2a9.chunk.js.map": "/fraight/static/js/787.7c01f2a9.chunk.js.map"
+    "main.css": "/fraight-app/static/css/main.073c9b0a.css",
+    "main.js": "/fraight-app/static/js/main.ace9c52b.js",
+    "static/js/787.7c01f2a9.chunk.js": "/fraight-app/static/js/787.7c01f2a9.chunk.js",
+    "static/media/logo.svg": "/fraight-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/fraight-app/index.html",
+    "main.073c9b0a.css.map": "/fraight-app/static/css/main.073c9b0a.css.map",
+    "main.ace9c52b.js.map": "/fraight-app/static/js/main.ace9c52b.js.map",
+    "787.7c01f2a9.chunk.js.map": "/fraight-app/static/js/787.7c01f2a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.80364f8e.js"
+    "static/js/main.ace9c52b.js"
   ]
 }
