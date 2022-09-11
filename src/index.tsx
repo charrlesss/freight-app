@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-  <BrowserRouter basename="/">
+  <BrowserRouter basename="https://charrlesss.github.io/fraight-app">
     <Routes>
       <Route path="/" element={<App />} />
       <Route

@@ -48,7 +48,7 @@ const serviceData: Array<ServiceDataType> = [
 ];
 
 const App: React.FC = (): JSX.Element => {
-  console.log(process.env.REACT_APP_DOMAIN_URL);
+  // console.log(process.env.REACT_APP_DOMAIN_URL);
   return (
     <main className="w-full mx:h-[100vh] h-auto  ">
       <Header />
@@ -69,7 +69,7 @@ const App: React.FC = (): JSX.Element => {
         <section className=" relatvie flex items-center justify-center">
           <img
             className="w-[600px] h-auto max-h-[600px] "
-            src={process.env.REACT_APP_DOMAIN_URL + "/delivery-boy.png"}
+            src={"delivery-boy.png"}
             alt="delivery ss"
           />
           <div className="lg:w-[500px] lg:h-[500px] md:w-[300px] md:h-[300px] md:block hidden raduis-[50%] w-[320px] h-[320px] absolute rounded-full bg-blue-200 -z-20"></div>
@@ -98,12 +98,9 @@ const App: React.FC = (): JSX.Element => {
             }
           )}
         </section>
-
       </section>
-      <section className="border h-[100px] w-full bg-gray-700">
+      <section className="border h-[100px] w-full bg-gray-700"></section>
 
-      </section>
-    
       <div className="absolute w-0 md:w-full bottom-0  left-0 -z-50">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
