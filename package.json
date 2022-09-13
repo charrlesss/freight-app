@@ -2,7 +2,7 @@
   "name": "freight",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://charrlesss.github.io/freight-app",
+  "homepage":"https://charrlesss.github.io/freight-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -13,6 +13,7 @@
     "@types/react-dom": "^18.0.6",
     "@types/react-helmet": "^6.1.5",
     "@types/react-router-dom": "^5.3.3",
+    "env-cmd": "^10.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
@@ -24,7 +25,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "env-cmd -f ./.env.staging gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

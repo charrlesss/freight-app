@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <BrowserRouter basename="/">
     <Routes>
-      <Route path="/freight-app" element={<App />} />
+      <Route path={process.env.REACT_APP_DOMAIN_NAME === "" ? "/freight-app" : "/"} element={<App />} />
       <Route
         path="admin"
         element={
