@@ -100,10 +100,10 @@ const App: React.FC = (): JSX.Element => {
         </section>
 
       </section>
-      <section className="border h-[100px] w-full bg-gray-700">
+      {/* <section className="border h-[100px] w-full bg-gray-700">
 
       </section>
-    
+     */}
       <div className="absolute w-0 md:w-full bottom-0  left-0 -z-50">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
