@@ -25,9 +25,9 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "env-cmd -f ./.env.staging gh-pages -d build",
+    "deploy": " gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "env-cmd -f ./.env.staging react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
