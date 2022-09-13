@@ -69,7 +69,7 @@ const App: React.FC = (): JSX.Element => {
         <section className=" relatvie flex items-center justify-center">
           <img
             className="w-[600px] h-auto max-h-[600px] "
-            src={  "https://charrlesss.github.io/delivery-boy.png"}
+            src={"delivery-boy.png"}
             alt="delivery ss"
           />
           <div className="lg:w-[500px] lg:h-[500px] md:w-[300px] md:h-[300px] md:block hidden raduis-[50%] w-[320px] h-[320px] absolute rounded-full bg-blue-200 -z-20"></div>
