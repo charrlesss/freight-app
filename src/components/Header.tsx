@@ -19,7 +19,7 @@ export const TABS = [
 const Header:React.FC<{activeUrl?:string }> =(props):JSX.Element=>{
   return (
     <header className={"sticky w-full top-0 z-20 hidden md:block bg-white"}>
-    <div className={` w-full bg-primary shadow-2xl`}>
+    <div className={` w-full bg-white shadow-2xl`}>
       <nav className={` text-lg font-light flex justify-between items-center container mx-auto py-2`}>
         <h1 className="px-4 font-['Bebas_Neue'] tracking-[4px]">FRAI <span className='text-red-400'>GHT</span></h1>
         <div className="flex items-center justify-center space-x-4">

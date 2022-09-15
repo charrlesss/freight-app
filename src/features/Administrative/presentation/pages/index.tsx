@@ -1,1 +1,1 @@
-export  {Admin} from './admin.page' 
+export {AdminDashboardPage} from "./admin-dashboard-page"

@@ -5,6 +5,11 @@ module.exports = {
       screens:{
         'xs':"550px",
         ...defaultTheme.screens
+      },
+      extend: {
+        colors: {
+          'primary': 'rgb(0, 153, 255)',
+        },
       }
   },
   extend: {
