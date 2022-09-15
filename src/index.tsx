@@ -14,11 +14,11 @@ root.render(
   <BrowserRouter basename="/">
     <Routes>
       <Route
-        path={process.env.REACT_APP_DOMAIN_URL === "" ? "/freight-app" : "/"}
+        path={process.env.REACT_APP_DOMAIN_URL }
         element={<App />}
       />
 
-      <Route path="/freight-app/admin">
+      <Route path={process.env.REACT_APP_DOMAIN_URL  +"admin"}>
         <Route index element={<AdminDashboardPage />} />
         <Route
           path="facilities"
@@ -43,7 +43,7 @@ root.render(
           />
         </Route>
         <Route
-          path="transaction-document"
+          path={process.env.REACT_APP_DOMAIN_URL  +"transaction-document"}
           element={
             <WrapperWithSidebarContent>
               <div>transaction-document</div>
@@ -61,7 +61,7 @@ root.render(
         </Route>
 
         <Route
-          path="legal"
+          path={process.env.REACT_APP_DOMAIN_URL  +"legal"}
           element={
             <WrapperWithSidebarContent>
               <div>legal</div>
@@ -83,7 +83,7 @@ root.render(
           <Route path="feedback" element={<div>feedback</div>} />
         </Route>
         <Route
-          path="visitor"
+          path={process.env.REACT_APP_DOMAIN_URL  + "visitor"}
           element={
             <WrapperWithSidebarContent>
               <div>visitor</div>
