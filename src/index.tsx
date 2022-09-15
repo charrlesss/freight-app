@@ -18,7 +18,7 @@ root.render(
         element={<App />}
       />
 
-      <Route path="admin">
+      <Route path="/freight-app/admin">
         <Route index element={<AdminDashboardPage />} />
         <Route
           path="facilities"
