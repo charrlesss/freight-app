@@ -2,7 +2,7 @@
   "name": "freight",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://charrlesss.github.io/freight-app/admin",
+  "homepage": "https://charrlesss.github.io/freight-app",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
