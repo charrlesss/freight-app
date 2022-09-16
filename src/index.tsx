@@ -13,12 +13,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <BrowserRouter basename="/">
     <Routes>
-      <Route
-        path={process.env.REACT_APP_DOMAIN_URL }
-        element={<App />}
-      />
+      <Route path={process.env.REACT_APP_DOMAIN_URL} element={<App />} />
 
-      <Route path={process.env.REACT_APP_DOMAIN_URL  +"admin"}>
+      <Route path={process.env.REACT_APP_DOMAIN_URL + "admin"}>
         <Route index element={<AdminDashboardPage />} />
         <Route
           path="facilities"
@@ -42,8 +39,9 @@ root.render(
             element={<div>reserve-transaction</div>}
           />
         </Route>
+
         <Route
-          path={process.env.REACT_APP_DOMAIN_URL  +"transaction-document"}
+          path={"transaction-document"}
           element={
             <WrapperWithSidebarContent>
               <div>transaction-document</div>
@@ -61,7 +59,7 @@ root.render(
         </Route>
 
         <Route
-          path={process.env.REACT_APP_DOMAIN_URL  +"legal"}
+          path={"legal"}
           element={
             <WrapperWithSidebarContent>
               <div>legal</div>
@@ -82,8 +80,9 @@ root.render(
           />
           <Route path="feedback" element={<div>feedback</div>} />
         </Route>
+
         <Route
-          path={process.env.REACT_APP_DOMAIN_URL  + "visitor"}
+          path={"visitor"}
           element={
             <WrapperWithSidebarContent>
               <div>visitor</div>
