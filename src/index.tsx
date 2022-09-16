@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { AdminDashboardPage } from "./features/Administrative/presentation/pages";
 import "./index.css";
 import { WrapperWithSidebarContent } from "./components/wrapper-with-sidebar-content";
@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-  <BrowserRouter basename="/">
+  <HashRouter basename="/">
     <Routes>
       <Route path={process.env.REACT_APP_DOMAIN_URL} element={<App />} />
 
@@ -106,7 +106,7 @@ root.render(
       <Route path="hr-1" element={<div>hr-2</div>} />
       <Route path="hr-2" element={<div>hr-2</div>} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
